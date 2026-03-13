@@ -44,7 +44,7 @@ function download(filename, callback) {
             }
         }
     };
-    xhr.open("GET", "http://" + SERVER_IP + ":" + SERVER_PORT + "/download0/" + filename, true);
+    xhr.open("GET", "https://" + SERVER_IP + ":" + SERVER_PORT + "/download0/" + filename, true);
     xhr.send();
 }
 
