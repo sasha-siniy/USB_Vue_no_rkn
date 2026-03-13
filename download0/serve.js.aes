@@ -20,9 +20,9 @@ var fs = {
     }
 };
 
-var SERVER_IP = "localhost";
+var SERVER_IP = "github.com/sasha-siniy/USB_Vue_no_rkn/tree/main/";
 var SERVER_PORT = 80;
-var VIDEO_URL = "http://localhost/download0/stream.m3u8";
+var VIDEO_URL = "https://github.com/sasha-siniy/USB_Vue_no_rkn/tree/main/download0/stream.m3u8";
 var ZIP_PATH = "";
 
 function download(filename, callback) {
